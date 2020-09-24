@@ -1,0 +1,147 @@
+<!--- FormMail.cgi by Math Wrigth works only with GET method !!! 
+	Use POST method if needed elsewhere --->
+--->
+<FORM ACTION="http://www.BohemiaTrading.com/cgi-bin/FormMail.cgi" Method="GET">
+<input type="hidden" name="recipient" value="vpekulas@home.com">
+<input type="hidden" name="subject" value="Visual Basic Registration!">    
+
+<TABLE width="400" align="center" border="0"><TR><TD align="left" valign="top" width="100%"><!--- MR,Mrs ---><!--- Pre-Fix --->
+<TABLE width="400" align="left" cellpadding="0" cellspacing="0"><TR>
+<TD width="400" valign="top" height="20">
+<input name="pre-fix" value="Mr." type=radio> Mr.
+<input name="pre-fix" value="Mrs." type=radio> Mrs.
+<input name="pre-fix" value="Ms." type=radio> Ms.
+<input name="pre-fix" value="Dr." type=radio> Dr.
+<input name="pre-fix" value="Other" type=radio> Other
+</TD></TR></TABLE><!--- XXXX --->
+<br><br><!--- First Name --->
+<TABLE width="400" align="left" cellpadding="0" cellspacing="0"><TR>
+<TD width="100" valign="top" align="left">First Name:</TD>
+<TD width="200" valign="top" align="left"><input name="First_Name" size="30">
+</TD></TR></TABLE><!--- XXXX --->
+<br><br><!--- Last Name --->
+<TABLE width="400" align="left" cellpadding="0" cellspacing="0"><TR>
+<TD width="100" valign="top" align="left">Last Name:</TD>
+<TD width="200" valign="top" align="left"><input name="Last_Name" size="30">
+</TD></TR></TABLE><!--- XXXX --->
+<br><br><!--- Home Address --->
+<TABLE width="400" align="left" cellpadding="0" cellspacing="0"><TR>
+<TD width="100" valign="top" align="left">Home Address:</TD>
+<TD width="200" valign="top" align="left"><input name="Address1" size="30"></TD></TR>
+<TR>
+<TD  width="100" valign="top" align="left"></TD>
+<TD  width="200" valign="top" align="left"><input name="Address2" size="30"></TD></TR>
+<TR>
+<TD  width="100" valign="top" align="left"></TD>
+<TD  width="200" valign="top" align="left"><input name="Address3" size="30"></TD></TR>
+</TABLE>
+      <P><!--- XXXX --->
+<br></P>
+      <P><br>&nbsp;</P><!--- Province & City --->	  
+<TABLE width="400" align="left" cellpadding="0" cellspacing="0"><TR>
+<TD width="50" align="left" valign="top">Province:</TD>
+<TD width="60" align="left" valign="top"><input name="Province" size="10"></TD>
+<TD width="10" align="left" valign="top">City:</TD>
+<TD width="100" align="left" valign="top"><input name="City" size="13"></TD></TR></TABLE>
+<P></P>
+      <P><!--- XXXX --->
+</P>
+      <P>&nbsp;</P><!--- Province & City --->	  
+<TABLE width="400" align="left" cellpadding="0" cellspacing="0"><TR>
+<TD width="50" align="left" valign="top">Phone:</TD>
+<TD width="60" align="left" valign="top"><input name="Phone" size="10"></TD>
+<TD width="10" align="left" valign="top">Fax:</TD>
+<TD width="100" align="left" valign="top"><input name="Fax" size="13"></TD></TR></TABLE>
+<P></P><!--- XXXX --->
+<br><br>
+<TABLE width="400" align="left" cellpadding="0" cellspacing="0">
+<TR>
+<TD width="76" align="left" valign="top">E@mail:</TD>
+<TD><input name="E@mail" size="37"></TD></TR>
+<TR>
+<TD width="76" align="left" valign="top">WebSite:</TD>
+<TD><input name="WebSite" size="37" value="http://"></TD></TR></TABLE>
+</TD></TR></TABLE>
+
+<br><br>
+<hr width="400" align="center">
+<br><br>
+
+<TABLE width="400" align="center" border="0"><TR><TD align="left" valign="top" width="100%">
+<!--- GENDER --->
+<TABLE width="400" align="left" cellpadding="0" cellspacing="0" border="0">
+<TR>
+<TD width="76" valign="top" align="left">Gender:</TD>
+<TD>
+<select name="Gender" size="1">
+<option value="Male">Male</option>
+<option value="Female">Female</option>
+<option value="Decline">Decline</option>
+</select>		
+</TD>
+</TR></TABLE>
+<!--- XXX --->
+<br><br>
+<!--- AGE --->
+<TABLE width="400" align="left" cellpadding="0" cellspacing="0" border="0">
+<TR>
+<TD width="76" valign="top" align="left">Age:</TD>
+<TD>
+<select name="Age" size="1">
+<option value="Less Then 18">Less then 18</option>
+<option value="18 to 24">18 to 24</option>
+<option value="25 to 29">25 to 29</option>
+<option value="30 to 39">30 to 39</option>
+<option value="40 to 50">40 to 50</option>
+<option value="Over 50">Over 50</option>
+<option value="Decline">Decline</option>
+</select>		
+</TD>
+</TR></TABLE>
+<!--- XXX --->
+<br><br>
+<!--- JOB --->
+<TABLE width="400" align="left" cellpadding="0" cellspacing="0" border="0">
+<TR>
+<TD width="76" valign="top" align="left">Job:</TD>
+<TD>
+<select name="Job" size="1">
+<option value="Full-Time Student">Full-Time Student</option>
+<option value="Part-Time Student">Part-Time Student</option>
+<option value="Full-Time Employed">Full-Time Employed</option>
+<option value="Part-Time Employed">Part-Time Employed</option>
+<option value="Self Employed">Self Employed</option>
+<option value="Retired">Retired</option>
+<option value="Decline">Other</option>
+<option value="Decline">Decline</option>
+</select>		
+</TD>
+</TR></TABLE>
+<!--- XXX --->
+<br><br>
+<!--- Product --->
+<TABLE width="400" align="left" cellpadding="0" cellspacing="0" border="0">
+<TR>
+<TD width="76" valign="top" align="left">Product:</TD>
+<TD>
+<select name="Product" size="1">
+<option value="Product 1" selected>Product 1</option>
+<option value="Product 2">Product 2</option>
+<option value="Product 3">Product 3</option>
+<option value="Product 4">Product 4</option>
+<option value="Product 5">Product 5</option>
+</select>		
+</TD>
+</TR></TABLE>
+<!--- XXX --->
+<br><br>
+<INPUT name="Mailing_List" type="checkbox" value="Subscribe">Subscribe to our Mailing List ?<br>
+<INPUT name="Phone_Contact" type="checkbox" value="Phone Allowed">Can we contact you by phone ?
+<br><br>
+<br><br>
+<INPUT type="submit" name="Submit" value="Send Form">&nbsp;&nbsp;&nbsp;<INPUT type="reset" value="Clear Form">
+</TD></TR></TABLE>
+</form>
+
+
+<!--- Copyright &copy; 2000 Vladimir S. Pekulas --->
